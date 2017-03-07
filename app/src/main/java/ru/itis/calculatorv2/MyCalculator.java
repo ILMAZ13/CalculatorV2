@@ -87,7 +87,7 @@ public class MyCalculator {
                     }
                     texas.add(new Ozp(State.add, 0));
                     break;
-                case sub :
+                case '-' :
                     if(nBuf.length() > 0){
                         res.add(new Ozp(State.num, Double.parseDouble(nBuf)));
                         nBuf = "";
